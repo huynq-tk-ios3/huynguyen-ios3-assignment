@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FC7E671CAFBE42003B2094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC7E661CAFBE42003B2094 /* main.m */; };
+		00FC7E6A1CAFBE42003B2094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC7E691CAFBE42003B2094 /* AppDelegate.m */; };
+		00FC7E6D1CAFBE42003B2094 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC7E6C1CAFBE42003B2094 /* ViewController.m */; };
+		00FC7E701CAFBE42003B2094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FC7E6E1CAFBE42003B2094 /* Main.storyboard */; };
+		00FC7E721CAFBE42003B2094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FC7E711CAFBE42003B2094 /* Assets.xcassets */; };
+		00FC7E751CAFBE42003B2094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FC7E731CAFBE42003B2094 /* LaunchScreen.storyboard */; };
+		00FC7E7D1CAFC06A003B2094 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FC7E7C1CAFC06A003B2094 /* SecondView.xib */; };
+		00FC7E831CAFC9E4003B2094 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC7E821CAFC9E4003B2094 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00FC7E621CAFBE42003B2094 /* TwoScreenCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoScreenCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FC7E661CAFBE42003B2094 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00FC7E681CAFBE42003B2094 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00FC7E691CAFBE42003B2094 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00FC7E6B1CAFBE42003B2094 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00FC7E6C1CAFBE42003B2094 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00FC7E6F1CAFBE42003B2094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00FC7E711CAFBE42003B2094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00FC7E741CAFBE42003B2094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00FC7E761CAFBE42003B2094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FC7E7C1CAFC06A003B2094 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		00FC7E811CAFC9E4003B2094 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		00FC7E821CAFC9E4003B2094 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00FC7E5F1CAFBE42003B2094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC7E591CAFBE42003B2094 = {
+			isa = PBXGroup;
+			children = (
+				00FC7E641CAFBE42003B2094 /* TwoScreenCommunication */,
+				00FC7E631CAFBE42003B2094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00FC7E631CAFBE42003B2094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00FC7E621CAFBE42003B2094 /* TwoScreenCommunication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00FC7E641CAFBE42003B2094 /* TwoScreenCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				00FC7E681CAFBE42003B2094 /* AppDelegate.h */,
+				00FC7E691CAFBE42003B2094 /* AppDelegate.m */,
+				00FC7E6B1CAFBE42003B2094 /* ViewController.h */,
+				00FC7E6C1CAFBE42003B2094 /* ViewController.m */,
+				00FC7E6E1CAFBE42003B2094 /* Main.storyboard */,
+				00FC7E711CAFBE42003B2094 /* Assets.xcassets */,
+				00FC7E731CAFBE42003B2094 /* LaunchScreen.storyboard */,
+				00FC7E761CAFBE42003B2094 /* Info.plist */,
+				00FC7E651CAFBE42003B2094 /* Supporting Files */,
+				00FC7E7C1CAFC06A003B2094 /* SecondView.xib */,
+				00FC7E811CAFC9E4003B2094 /* SecondViewController.h */,
+				00FC7E821CAFC9E4003B2094 /* SecondViewController.m */,
+			);
+			path = TwoScreenCommunication;
+			sourceTree = "<group>";
+		};
+		00FC7E651CAFBE42003B2094 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FC7E661CAFBE42003B2094 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00FC7E611CAFBE42003B2094 /* TwoScreenCommunication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FC7E791CAFBE42003B2094 /* Build configuration list for PBXNativeTarget "TwoScreenCommunication" */;
+			buildPhases = (
+				00FC7E5E1CAFBE42003B2094 /* Sources */,
+				00FC7E5F1CAFBE42003B2094 /* Frameworks */,
+				00FC7E601CAFBE42003B2094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoScreenCommunication;
+			productName = TwoScreenCommunication;
+			productReference = 00FC7E621CAFBE42003B2094 /* TwoScreenCommunication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00FC7E5A1CAFBE42003B2094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TechKids;
+				TargetAttributes = {
+					00FC7E611CAFBE42003B2094 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 00FC7E5D1CAFBE42003B2094 /* Build configuration list for PBXProject "TwoScreenCommunication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00FC7E591CAFBE42003B2094;
+			productRefGroup = 00FC7E631CAFBE42003B2094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00FC7E611CAFBE42003B2094 /* TwoScreenCommunication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00FC7E601CAFBE42003B2094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FC7E751CAFBE42003B2094 /* LaunchScreen.storyboard in Resources */,
+				00FC7E721CAFBE42003B2094 /* Assets.xcassets in Resources */,
+				00FC7E7D1CAFC06A003B2094 /* SecondView.xib in Resources */,
+				00FC7E701CAFBE42003B2094 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00FC7E5E1CAFBE42003B2094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FC7E831CAFC9E4003B2094 /* SecondViewController.m in Sources */,
+				00FC7E6D1CAFBE42003B2094 /* ViewController.m in Sources */,
+				00FC7E6A1CAFBE42003B2094 /* AppDelegate.m in Sources */,
+				00FC7E671CAFBE42003B2094 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00FC7E6E1CAFBE42003B2094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FC7E6F1CAFBE42003B2094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00FC7E731CAFBE42003B2094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FC7E741CAFBE42003B2094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00FC7E771CAFBE42003B2094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00FC7E781CAFBE42003B2094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00FC7E7A1CAFBE42003B2094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoScreenCommunication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.techkids.TwoScreenCommunication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00FC7E7B1CAFBE42003B2094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoScreenCommunication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.techkids.TwoScreenCommunication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00FC7E5D1CAFBE42003B2094 /* Build configuration list for PBXProject "TwoScreenCommunication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FC7E771CAFBE42003B2094 /* Debug */,
+				00FC7E781CAFBE42003B2094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FC7E791CAFBE42003B2094 /* Build configuration list for PBXNativeTarget "TwoScreenCommunication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FC7E7A1CAFBE42003B2094 /* Debug */,
+				00FC7E7B1CAFBE42003B2094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00FC7E5A1CAFBE42003B2094 /* Project object */;
+}
