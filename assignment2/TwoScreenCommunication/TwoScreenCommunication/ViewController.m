@@ -26,8 +26,34 @@
 }
 
 - (IBAction)buttonTouchDown:(id)sender {
+    
     NSLog(@"Button touched");
-    SecondViewController *secondViewController = [[SecondViewController alloc]init];
+    
+    SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SecondViewController"];
+    [self.navigationController pushViewController:secondViewController animated:YES];
+    
+    self.pvTest.dataSource = self;
+    self.pvTest.delegate = self;
+}
+
+- (IBAction)uiSwitchEditingChanged:(id)sender {
+    NSLog(@"uiSwitchEditingChanged");
+}
+
+- (IBAction)uiSwitchPrimaryActionTrigger:(id)sender {
+    NSLog(@"uiSwitchPrimaryActionTrigger");
+    NSLog(@" %d", self.swCheck.isOn);
+}
+
+- (IBAction)uiSwitchValueChanged:(id)sender {
+    NSLog(@"uiSwitchValueChanged");
     
 }
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+    
+}
+
+
+
 @end

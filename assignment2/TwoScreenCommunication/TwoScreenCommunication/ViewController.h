@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 
 - (IBAction)buttonTouchDown:(id)sender;
+- (IBAction)uiSwitchEditingChanged:(id)sender;
+- (IBAction)uiSwitchPrimaryActionTrigger:(id)sender;
+- (IBAction)uiSwitchValueChanged:(id)sender;
+@property (weak, nonatomic) IBOutlet UISwitch *swCheck;
 
+@property (weak, nonatomic) IBOutlet UIPickerView *pvTest;
 @end
 
