@@ -10,5 +10,6 @@
 
 @interface DummyCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *lblChat;
+@property (weak, nonatomic) IBOutlet UILabel *lblChatRight;
 
 @end
