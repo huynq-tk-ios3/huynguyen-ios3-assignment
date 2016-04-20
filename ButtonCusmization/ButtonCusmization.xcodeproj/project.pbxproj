@@ -15,6 +15,7 @@
 		84582D2E1CBE629B00BD4216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84582D2C1CBE629B00BD4216 /* LaunchScreen.storyboard */; };
 		84582D361CBE689A00BD4216 /* fun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84582D351CBE689A00BD4216 /* fun.jpg */; };
 		84582D381CBE6B7900BD4216 /* Fun-Surf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84582D371CBE6B7900BD4216 /* Fun-Surf.jpg */; };
+		84582D3B1CBE6FCC00BD4216 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 84582D3A1CBE6FCC00BD4216 /* CustomSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		84582D2F1CBE629B00BD4216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84582D351CBE689A00BD4216 /* fun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fun.jpg; sourceTree = "<group>"; };
 		84582D371CBE6B7900BD4216 /* Fun-Surf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fun-Surf.jpg"; sourceTree = "<group>"; };
+		84582D391CBE6FCC00BD4216 /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		84582D3A1CBE6FCC00BD4216 /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				84582D2C1CBE629B00BD4216 /* LaunchScreen.storyboard */,
 				84582D2F1CBE629B00BD4216 /* Info.plist */,
 				84582D1E1CBE629B00BD4216 /* Supporting Files */,
+				84582D391CBE6FCC00BD4216 /* CustomSlider.h */,
+				84582D3A1CBE6FCC00BD4216 /* CustomSlider.m */,
 			);
 			path = ButtonCusmization;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				84582D261CBE629B00BD4216 /* ViewController.m in Sources */,
 				84582D231CBE629B00BD4216 /* AppDelegate.m in Sources */,
 				84582D201CBE629B00BD4216 /* main.m in Sources */,
+				84582D3B1CBE6FCC00BD4216 /* CustomSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +314,7 @@
 				84582D341CBE629B00BD4216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -41,6 +41,9 @@
     self.imageview.layer.borderColor = [UIColor whiteColor].CGColor;
     
     
+    CGAffineTransform trans = CGAffineTransformMakeRotation(M_PI_2);
+    _slider.transform = trans;
+    
 }
 
 - (void)didReceiveMemoryWarning {

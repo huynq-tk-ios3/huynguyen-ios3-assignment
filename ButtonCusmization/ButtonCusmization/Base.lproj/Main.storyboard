@@ -37,7 +37,7 @@
                                 <animations/>
                             </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="JJd-8H-Gch">
-                                <rect key="frame" x="90" y="392" width="180" height="31"/>
+                                <rect key="frame" x="27" y="466" width="180" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </slider>
@@ -49,6 +49,7 @@
                         <outlet property="button1" destination="84o-16-Pz8" id="j2U-3N-TvN"/>
                         <outlet property="button2" destination="L6p-27-SN5" id="ajd-hY-nMt"/>
                         <outlet property="imageview" destination="Hp6-jz-LX6" id="ZqK-QF-C0d"/>
+                        <outlet property="slider" destination="JJd-8H-Gch" id="pHz-Ez-sWj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

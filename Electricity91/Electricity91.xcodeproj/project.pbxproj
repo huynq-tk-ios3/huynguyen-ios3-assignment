@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845BC23C1CC663060066DF73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845BC23B1CC663060066DF73 /* main.m */; };
+		845BC23F1CC663060066DF73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845BC23E1CC663060066DF73 /* AppDelegate.m */; };
+		845BC2421CC663060066DF73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845BC2411CC663060066DF73 /* ViewController.m */; };
+		845BC2451CC663060066DF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845BC2431CC663060066DF73 /* Main.storyboard */; };
+		845BC2471CC663060066DF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845BC2461CC663060066DF73 /* Assets.xcassets */; };
+		845BC24A1CC663060066DF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845BC2481CC663060066DF73 /* LaunchScreen.storyboard */; };
+		84FD93511CC7A938004CB76A /* hangvietnamchatluongcao.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 84FD93501CC7A938004CB76A /* hangvietnamchatluongcao.bmp */; };
+		84FD93531CC7A93E004CB76A /* fan.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FD93521CC7A93E004CB76A /* fan.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		845BC2371CC663060066DF73 /* Electricity91.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Electricity91.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845BC23B1CC663060066DF73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845BC23D1CC663060066DF73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845BC23E1CC663060066DF73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845BC2401CC663060066DF73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		845BC2411CC663060066DF73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845BC2441CC663060066DF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845BC2461CC663060066DF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845BC2491CC663060066DF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845BC24B1CC663060066DF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD93501CC7A938004CB76A /* hangvietnamchatluongcao.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = hangvietnamchatluongcao.bmp; sourceTree = "<group>"; };
+		84FD93521CC7A93E004CB76A /* fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fan.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845BC2341CC663060066DF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845BC22E1CC663060066DF73 = {
+			isa = PBXGroup;
+			children = (
+				845BC2391CC663060066DF73 /* Electricity91 */,
+				845BC2381CC663060066DF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845BC2381CC663060066DF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845BC2371CC663060066DF73 /* Electricity91.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845BC2391CC663060066DF73 /* Electricity91 */ = {
+			isa = PBXGroup;
+			children = (
+				845BC23D1CC663060066DF73 /* AppDelegate.h */,
+				845BC23E1CC663060066DF73 /* AppDelegate.m */,
+				845BC2401CC663060066DF73 /* ViewController.h */,
+				845BC2411CC663060066DF73 /* ViewController.m */,
+				845BC2431CC663060066DF73 /* Main.storyboard */,
+				845BC2461CC663060066DF73 /* Assets.xcassets */,
+				84FD93521CC7A93E004CB76A /* fan.png */,
+				84FD93501CC7A938004CB76A /* hangvietnamchatluongcao.bmp */,
+				845BC2481CC663060066DF73 /* LaunchScreen.storyboard */,
+				845BC24B1CC663060066DF73 /* Info.plist */,
+				845BC23A1CC663060066DF73 /* Supporting Files */,
+			);
+			path = Electricity91;
+			sourceTree = "<group>";
+		};
+		845BC23A1CC663060066DF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845BC23B1CC663060066DF73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845BC2361CC663060066DF73 /* Electricity91 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845BC24E1CC663060066DF73 /* Build configuration list for PBXNativeTarget "Electricity91" */;
+			buildPhases = (
+				845BC2331CC663060066DF73 /* Sources */,
+				845BC2341CC663060066DF73 /* Frameworks */,
+				845BC2351CC663060066DF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Electricity91;
+			productName = Electricity91;
+			productReference = 845BC2371CC663060066DF73 /* Electricity91.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845BC22F1CC663060066DF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Techkids;
+				TargetAttributes = {
+					845BC2361CC663060066DF73 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 845BC2321CC663060066DF73 /* Build configuration list for PBXProject "Electricity91" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845BC22E1CC663060066DF73;
+			productRefGroup = 845BC2381CC663060066DF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845BC2361CC663060066DF73 /* Electricity91 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845BC2351CC663060066DF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845BC24A1CC663060066DF73 /* LaunchScreen.storyboard in Resources */,
+				845BC2471CC663060066DF73 /* Assets.xcassets in Resources */,
+				84FD93511CC7A938004CB76A /* hangvietnamchatluongcao.bmp in Resources */,
+				845BC2451CC663060066DF73 /* Main.storyboard in Resources */,
+				84FD93531CC7A93E004CB76A /* fan.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845BC2331CC663060066DF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845BC2421CC663060066DF73 /* ViewController.m in Sources */,
+				845BC23F1CC663060066DF73 /* AppDelegate.m in Sources */,
+				845BC23C1CC663060066DF73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845BC2431CC663060066DF73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845BC2441CC663060066DF73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845BC2481CC663060066DF73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845BC2491CC663060066DF73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845BC24C1CC663060066DF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845BC24D1CC663060066DF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845BC24F1CC663060066DF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Electricity91/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.techkids.Electricity91;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845BC2501CC663060066DF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Electricity91/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.techkids.Electricity91;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845BC2321CC663060066DF73 /* Build configuration list for PBXProject "Electricity91" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845BC24C1CC663060066DF73 /* Debug */,
+				845BC24D1CC663060066DF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845BC24E1CC663060066DF73 /* Build configuration list for PBXNativeTarget "Electricity91" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845BC24F1CC663060066DF73 /* Debug */,
+				845BC2501CC663060066DF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845BC22F1CC663060066DF73 /* Project object */;
+}
