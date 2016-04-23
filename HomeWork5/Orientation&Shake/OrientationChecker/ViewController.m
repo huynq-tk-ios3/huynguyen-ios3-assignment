@@ -40,11 +40,27 @@
             break;
         case UIDeviceOrientationLandscapeLeft:
             NSLog(@"LandscapeLeft");
-            self.lblOrientation.text = @"Landscape";
+            self.lblOrientation.text = @"LandscapeLeft";
             break;
         case UIDeviceOrientationLandscapeRight:
             NSLog(@"LandscapeRight");
-            self.lblOrientation.text = @"Lanscape";
+            self.lblOrientation.text = @"LanscapeRight";
+            break;
+        case UIDeviceOrientationFaceDown:
+            NSLog(@"FaceDown");
+            self.lblOrientation.text = @"FaceDown";
+            break;
+        case UIDeviceOrientationFaceUp:
+            NSLog(@"FaceUp");
+            self.lblOrientation.text = @"FaceUp";
+            break;
+        case UIDeviceOrientationUnknown:
+            NSLog(@"Unknown");
+            self.lblOrientation.text = @"Unknown";
+            break;
+        case UIDeviceOrientationPortraitUpsideDown:
+            NSLog(@"PortraitUpsideDown");
+            self.lblOrientation.text = @"PortraitUpsideDown";
             break;
         default:
             break;
