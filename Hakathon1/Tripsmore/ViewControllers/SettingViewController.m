@@ -41,9 +41,31 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 - (IBAction)btnResetDataClicked:(id)sender {
-
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Delete word"
+                                                    message:@"Do you want to reset all data?"
+                                                   delegate:self
+                                          cancelButtonTitle:@"YES"
+                                          otherButtonTitles:@"NO", nil];
+    [alert show];
 }
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSString *title = [alertView buttonTitleAtIndex:buttonIndex];
+    if([title isEqualToString:@"YES"])
+    {
+        [[DatabaseService shareInstance] resetDB];
+    }
+}
+
+
 - (IBAction)btnAboutClicked:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"About"
+                                                    message:@"This is Pashto dictionary application for iOS."
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
 
 }
 - (IBAction)btnRemoveAdsClicked:(id)sender {
