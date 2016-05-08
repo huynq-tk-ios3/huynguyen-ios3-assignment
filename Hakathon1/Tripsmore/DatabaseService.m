@@ -129,7 +129,7 @@ static id _instance = nil;
     if (!isEng2Pa) {
         strDB = @"table_pa_eng";
     }
-    NSString *strQuery = [NSString stringWithFormat:@"SELECT _id, word, result, description, favorites, edited FROM %@ WHERE word LIKE '%@%%' LIMIT 100", strDB, word];
+    NSString *strQuery = [NSString stringWithFormat:@"SELECT _id, word, result, description, favorites, edited FROM %@ WHERE word LIKE '%%%@%%' LIMIT 100", strDB, word];
     FMResultSet *results = [self.database executeQuery:strQuery];
     NSLog(@"query: %@", results.query);
     if (!results || !results.query) {
