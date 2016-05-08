@@ -41,7 +41,7 @@
 - (void)updateMainColorFromString:(NSString *)mainColorString {
     [[NSUserDefaults standardUserDefaults] setObject:mainColorString forKey:kUD_MainColor];
     [[NSUserDefaults standardUserDefaults] synchronize];
-
+    _mainColor = [Utils colorFromHex:mainColorString];
     
 }
 
