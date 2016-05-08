@@ -49,13 +49,15 @@
 }
 
 - (IBAction)btnFavouriteClicked:(UIButton *)sender {
+    sender.selected = !sender.selected;
+    
     if (sender.selected) {
-        self.word.favorites = @"0";
-    } else {
         self.word.favorites = @"1";
+    } else {
+        self.word.favorites = @"0";
     }
     [[DatabaseService shareInstance] update:self.word changeEditTime:NO];
-    sender.selected = !sender.selected;
+    
     if (!sender.selected) {
         [self.view makeToast:LocalizedString(@"Removed from favourite") duration:2.0 position:nil];
     } else {
