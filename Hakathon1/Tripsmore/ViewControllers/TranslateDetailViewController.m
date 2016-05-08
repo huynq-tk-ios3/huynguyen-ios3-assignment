@@ -66,6 +66,10 @@
     
     UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:postItems applicationActivities:nil];
     
+    if([controller respondsToSelector:@selector(popoverPresentationController)]) {
+        controller.popoverPresentationController.sourceView = self.view;
+    }
+    
     //if iPhone
     [self presentViewController:controller animated:YES completion:nil];
 }
