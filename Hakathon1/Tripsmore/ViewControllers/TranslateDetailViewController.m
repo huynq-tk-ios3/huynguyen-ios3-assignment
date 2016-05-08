@@ -50,6 +50,8 @@
 
 - (IBAction)btnFavouriteClicked:(UIButton *)sender {
     if (sender.selected) {
+        self.word.favorites = @"0";
+    } else {
         self.word.favorites = @"1";
     }
     [[DatabaseService shareInstance] update:self.word changeEditTime:NO];
