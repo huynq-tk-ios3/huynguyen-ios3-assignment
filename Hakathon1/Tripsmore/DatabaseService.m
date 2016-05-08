@@ -73,7 +73,7 @@ static id _instance = nil;
         strDate = word.edited;
     }
     
-    NSString *strQuery = [NSString stringWithFormat:@"INSERT INTO %@ (word, result1, description, favorites, edited) VALUES ('%@', '%@', '%@', '%@', '%@')", strDB,
+    NSString *strQuery = [NSString stringWithFormat:@"INSERT INTO %@ (word, result, description, favorites, edited) VALUES ('%@', '%@', '%@', '%@', '%@')", strDB,
                           SAFE_STR(word.word),
                           SAFE_STR(word.result),
                           SAFE_STR(word.strDescription),

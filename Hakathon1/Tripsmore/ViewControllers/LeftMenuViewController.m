@@ -30,6 +30,7 @@ static id instance = nil;
     instance = self;
     // Do any additional setup after loading the view.
     self.customNavigation.backgroundColor = [StaticData sharedInstance].mainColor;
+    self.title = LocalizedString(@"Menu");
     
 }
 
