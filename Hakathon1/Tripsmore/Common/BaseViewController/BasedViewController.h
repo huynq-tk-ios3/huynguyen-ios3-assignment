@@ -38,5 +38,6 @@
 ///////// LOGIC OF APP
 @property (weak, nonatomic) IBOutlet UIButton *btnEdit;
 - (IBAction)btnEditClicked:(id)sender;
+- (void) didTap:(UIGestureRecognizer*) recognizer;
 
 @end

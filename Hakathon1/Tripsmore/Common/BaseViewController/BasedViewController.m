@@ -13,6 +13,7 @@
 
 @interface BasedViewController ()<UIGestureRecognizerDelegate>
 
+
 @end
 
 @implementation BasedViewController
@@ -53,10 +54,35 @@
         [self.interstitial loadRequest:request];
     }
     ///// END CONFIGURE INTERESTIAL
+    
+    
+    /* CONFIGURE GESTURES */
+    [self addTapGesture];
+    
 }
+
+- (void)addTapGesture;
+{
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(didTap:)];
+    
+    [self.view addGestureRecognizer:tapGesture];
+    [tapGesture setCancelsTouchesInView:NO];
+}
+
+
+- (void)didTap:(UITapGestureRecognizer *)tapGesture;
+{
+    [self.view endEditing:YES];
+}
+
+
+
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
-    return NO;
+    
+    
+    return YES;
 }
+
 - (void)setTitle:(NSString *)title
 {
     [super setTitle:@""];
@@ -108,6 +134,8 @@
         [self.iAdView removeFromSuperview];
     }
 }
+
+
 
 - (BOOL)hidesBottomBarWhenPushed {
     return YES;

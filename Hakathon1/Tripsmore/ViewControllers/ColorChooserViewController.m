@@ -83,12 +83,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *strColor = self.arrColorValue[indexPath.row];
-//    [[NSUserDefaults standardUserDefaults] setObject:strColor forKey:kUD_MainColor];
-//    [[NSUserDefaults standardUserDefaults] synchronize];
     
     [[StaticData sharedInstance] updateMainColorFromString:strColor];
     [[LeftMenuViewController shareInstance] refreshColor];
-    [self refreshColor];
     self.customNavigation.backgroundColor = [StaticData sharedInstance].mainColor;
     [self.navigationController popViewControllerAnimated:YES];
 }
