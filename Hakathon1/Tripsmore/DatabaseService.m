@@ -104,7 +104,7 @@ static id _instance = nil;
         strDate = word.edited;
     }
     
-    NSString *strQuery = [NSString stringWithFormat:@"UPDATE SET word='%@', result='%@', description='%@', favorites='%@', edited='%@' WHERE _id=%ld", strDB,
+    NSString *strQuery = [NSString stringWithFormat:@"UPDATE %@ SET word='%@', result='%@', description='%@', favorites='%@', edited='%@' WHERE _id=%ld", strDB,
                           SAFE_STR(word.word),
                           SAFE_STR(word.result),
                           SAFE_STR(word.strDescription),
