@@ -19,6 +19,8 @@
     [super viewDidLoad];
     self.title = LocalizedString(@"Translation Detail");
     
+    [DatabaseService shareInstance];
+    
     [self refreshWordData];
     
     if ([@"1" isEqualToString:self.word.favorites]) {
@@ -84,7 +86,23 @@
         vc.word = self.word;
         [self.navigationController pushViewController:vc animated:YES];
     } else if (buttonIndex == 1) {
-        NSLog(@"Delete");
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Delete word"
+                                                        message:@"Do you want to delete this word?"
+                                                       delegate:self
+                                              cancelButtonTitle:@"YES"
+                                              otherButtonTitles:@"NO", nil];
+        [alert show];
+        
+    }
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSString *title = [alertView buttonTitleAtIndex:buttonIndex];
+    if([title isEqualToString:@"YES"])
+    {
+        [[DatabaseService shareInstance] deleteW:_word];
+        [self.navigationController popViewControllerAnimated:YES];
     }
 }
 
