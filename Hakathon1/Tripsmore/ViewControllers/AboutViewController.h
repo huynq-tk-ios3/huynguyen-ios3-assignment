@@ -12,4 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
+- (IBAction)backAction:(id)sender;
+
 @end

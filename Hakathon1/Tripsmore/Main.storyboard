@@ -560,7 +560,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="backAction:" destination="hGX-e5-P4h" eventType="touchUpInside" id="imo-R0-ZxT"/>
+                                            <action selector="backAction:" destination="hGX-e5-P4h" eventType="touchUpInside" id="V4H-Z5-arz"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -587,7 +587,6 @@
                     <navigationItem key="navigationItem" id="nhC-Wp-ra8"/>
                     <connections>
                         <outlet property="adsView" destination="Mzl-6i-yoo" id="NAS-j6-mJU"/>
-                        <outlet property="btnBack" destination="bOz-ko-yEU" id="7rO-Vs-g41"/>
                         <outlet property="customNavigation" destination="RrQ-Sj-MeQ" id="2g6-Q1-4fu"/>
                         <outlet property="lblTitle" destination="aec-RO-p05" id="oMS-6B-leV"/>
                         <outlet property="webView" destination="rHa-8O-uad" id="xAy-6H-3wQ"/>
