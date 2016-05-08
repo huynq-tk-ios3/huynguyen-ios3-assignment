@@ -15,4 +15,6 @@
 - (void) parseDataFromArray:(NSArray *) arrSystemSetting;
 - (void) cleanData;
 
+- (void) updateMainColorFromString:(NSString*) mainColorString;
+
 @end

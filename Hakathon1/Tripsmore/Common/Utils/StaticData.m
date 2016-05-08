@@ -38,6 +38,13 @@
     return self;
 }
 
+- (void)updateMainColorFromString:(NSString *)mainColorString {
+    [[NSUserDefaults standardUserDefaults] setObject:mainColorString forKey:kUD_MainColor];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+
+    
+}
+
 - (void) parseDataFromArray:(NSArray *) arrSystemSetting;
 {
 
